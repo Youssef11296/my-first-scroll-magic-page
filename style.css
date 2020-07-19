@@ -1,0 +1,26 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:sans-serif;
+    box-sizing:border-box;
+}
+body{
+    height:180vh;
+}
+.section{
+    margin-top:70vh;
+    padding:40px 0;
+    color:#fff;
+    font-size:4rem;
+    text-align:center;
+    background-color:rgb(170, 116, 16);
+    position:relative;
+    opacity:0;
+    bottom:-80px;
+    transition:all .8s ease-in-out;
+}
+
+.section.show{
+    opacity:1;
+    bottom:0;
+}
